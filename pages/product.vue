@@ -14,10 +14,10 @@
           <div class="col-md-4" v-for="produk in products" :key="produk.id">
             <div class="card mb-3">
               <div class="card-header">
-                <img :src="produk.poto" width="100%"> 
+                <img :src="produk.poto" width="100%" height="350"> 
               </div>
               <div class="card-body">
-                <h4>{{ produk.nama }}</h4>
+                <h4>{{ produk.nama}}</h4>
                 <h4>Rp{{ produk.harga }}</h4>
                 <a :href="produk.link_eksternal" class="btn btn-success btn-block">Beli</a>
               </div>
